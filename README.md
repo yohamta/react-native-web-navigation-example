@@ -1,5 +1,5 @@
 ## React Native for Web with React Navigation
-This is an example application how to use React Navigation with React Native for Web.
+This is an example application how to use React Navigation with React Native for Web. It's super simple so that it would be useful as boiler plate.
 
 ## How to run
 ```sh
