@@ -9,7 +9,7 @@ $ yarn start
 ```
 
 ## How it looks
-![img](https://i.gyazo.com/8ffdc37a5fbfd124c5842977953cefcc.gif)
+![img](https://i.gyazo.com/42ebfeeb64bf9df120e5312e618cd0e4.gif)
 
 ## Key points to use React Navigation with React Native for Web
 
