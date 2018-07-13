@@ -66,3 +66,7 @@ module.exports = {
 ```sh
 $ yarn add react-art
 ```
+
+## Licence
+MIT License.
+
