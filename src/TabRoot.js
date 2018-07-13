@@ -1,14 +1,13 @@
 import React from 'react';
 import { createBottomTabNavigator } from 'react-navigation';
-import { View, Text, StyleSheet } from 'react-native-web';
-import Home from './screens/NewsList';
-import Statistics from './screens/Statistics';
+import Home from './screens/Home';
+import Settings from './screens/Settings';
 import FontAwesome from 'react-fontawesome';
 
 export default createBottomTabNavigator(
   {
     Home,
-    Statistics,
+    Settings,
   },
   {
     navigationOptions: ({navigation}) => ({
