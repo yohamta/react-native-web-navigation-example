@@ -1,0 +1,9 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": "auth != null",
+    "newsList": {
+      ".indexOn": ["baseDate", "sortKey", "name"]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-react-native-web": "^0.8.6",
+    "babel-preset-react-native": "^4.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.10",
+    "apollo-link-firebase": "^1.0.2",
+    "babel-polyfill": "^6.26.0",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "lodash": "^4.17.10",
+    "react": "^16.4.1",
+    "react-apollo": "^2.1.9",
+    "react-art": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-fontawesome": "^1.6.1",
+    "react-native-htmlview": "^0.12.1",
+    "react-native-web": "^0.8.6",
+    "react-navigation": "^2.6.2",
+    "webpack-merge": "^4.1.3"
+  }
+}
