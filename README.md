@@ -67,6 +67,6 @@ module.exports = {
 $ yarn add react-art
 ```
 
-## Licence
+## License
 MIT License.
 
