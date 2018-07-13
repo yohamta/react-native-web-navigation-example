@@ -17,7 +17,7 @@ export default createBottomTabNavigator(
         if (routeName === 'Home') {
           name = 'home';
         } else {
-          name = 'chart-bar'
+          name = 'sliders-h'
         }
         return <FontAwesome name={name} style={{color: focused ? 'tomato': 'gray' }} />
       },
